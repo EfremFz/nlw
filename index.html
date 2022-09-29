@@ -11,6 +11,14 @@
         <title>NLW E-Sports</title>
 
         <link rel="stylesheet" href="./styles.css">
+
+         <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
+
+        
     </head>
     <body>
         
@@ -28,34 +36,37 @@
                     <h2>Meus Jogos</h2>
                     <p>Os games que eu mais curto jogar</p>
 
-                    <ul class="games-list">
-                        <li>
-                            <a
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/Project%20Zomboid" >
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/31339_IGDB-188x250.jpg" alt="Imagem do jogo Project Zomboid" />
-                            </a>
-                            
-                        </li>
+                    <div class="swiper mySwiper">
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V" >
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Imagem do jogo GTA 5" />
-                            </a>
-                            
-                        </li>
+                        <ul class="games-list swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Project%20Zomboid" >
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/31339_IGDB-188x250.jpg" alt="Imagem do jogo Project Zomboid" />
+                                </a>
+                                
+                            </li>
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/directory/game/League%20of%20Legends" >
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Imagem do jogo League of Legends" />
-                            </a>
-                            
-                        </li>
-                    </ul>
+                            <li swiper-wrapperi class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V" >
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Imagem do jogo GTA 5" />
+                                </a>
+                                
+                            </li>
+
+                            <li swiper-wrapperi class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/League%20of%20Legends" >
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="Imagem do jogo League of Legends" />
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>    
                 </div>
             </section>
 
@@ -64,34 +75,37 @@
                     <h2>Canais e Streamer</h2>
                     <p>Lista de canais e transmissões que não perco!</p>
 
-                    <ul class="channel-list">
-                        <li>
-                            <a
-                            target="_blank"
-                            href="https://www.twitch.tv/coloniacontraatacalive" >
-                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/61a4f302-ba73-4fa0-b41c-123502163fd7-profile_image-150x150.png" alt="Imagem do canal Colonia contra ataca" />
-                            </a>
-                            
-                        </li>
+                        <div class="swiper mySwiper">
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/damianizando" >
-                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/8a533108-53fe-4683-9485-749e5f7adb45-profile_image-150x150.png" alt="Imagem imagem do canal Damianizando" />
-                            </a>
-                            
-                        </li>
+                            <ul class="channel-list swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a
+                                    target="_blank"
+                                    href="https://www.twitch.tv/coloniacontraatacalive" >
+                                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/61a4f302-ba73-4fa0-b41c-123502163fd7-profile_image-150x150.png" alt="Imagem do canal Colonia contra ataca" />
+                                    </a>
+                                    
+                                </li>
 
-                        <li>
-                            <a 
-                            target="_blank"
-                            href="https://www.twitch.tv/foioguto" >
-                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/b2654c77-5b86-4d56-ab7b-d62115302a10-profile_image-150x150.png" alt="Imagem do canal Cronosfera" />
-                            </a>
-                            
-                        </li>
-                    </ul>
+                                <li class="swiper-slide">
+                                    <a 
+                                    target="_blank"
+                                    href="https://www.twitch.tv/damianizando" >
+                                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/8a533108-53fe-4683-9485-749e5f7adb45-profile_image-150x150.png" alt="Imagem imagem do canal Damianizando" />
+                                    </a>
+                                    
+                                </li>
+
+                                <li class="swiper-slide">
+                                    <a 
+                                    target="_blank"
+                                    href="https://www.twitch.tv/foioguto" >
+                                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/b2654c77-5b86-4d56-ab7b-d62115302a10-profile_image-150x150.png" alt="Imagem do canal Cronosfera" />
+                                    </a>
+                                    
+                                </li>
+                            </ul>
+                        </div>    
                 </div>
             </section>
 
@@ -171,5 +185,18 @@
                 </div>
             </section>
         </main>
-</body>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+         <!-- Initialize Swiper -->
+        <script>
+            new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                loop: true,
+            },);
+        </script> 
+
+
+    </body>
 </html>
